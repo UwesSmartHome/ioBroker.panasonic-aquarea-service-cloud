@@ -1,0 +1,73 @@
+{
+    "common": {
+        "name": "panasonic-aquarea-service-cloud",
+        "version": "0.0.1",
+        "news": {
+                "0.0.1": {
+                "en": "initial release",
+                "de": "Erstveröffentlichung",
+                "ru": "Начальная версия",
+                "pt": "lançamento inicial",
+                "nl": "Eerste uitgave",
+                "fr": "Première version",
+                "it": "Versione iniziale",
+                "es": "Versión inicial",
+                "pl": "Pierwsze wydanie",
+                "zh-cn": "首次出版"
+            }
+        },
+        "title": "Aquarea Service Cloud",
+        "titleLang": {
+            "en": "Aquarea Service Cloud",
+            "de": "Aquarea Service Cloud",
+            "ru": "Aquarea Service Cloud",
+            "pt": "Aquarea Service Cloud",
+            "nl": "Aquarea Service Cloud",
+            "fr": "Aquarea Service Cloud",
+            "it": "Aquarea Service Cloud",
+            "es": "Aquarea Service Cloud",
+            "pl": "Aquarea Service Cloud",
+            "zh-cn": "松下舒适云"
+        },
+        "desc": {
+            "en": "Adapter for Aquarea Service Cloud",
+            "de": "Adapter für Aquarea Service Cloud",
+            "ru": "Адаптер для Aquarea Service Cloud",
+            "pt": "Adaptador para Aquarea Service Cloud",
+            "nl": "Adapter voor Aquarea Service Cloud",
+            "fr": "Adaptateur pour Aquarea Service Cloud",
+            "it": "Adattatore per Aquarea Service Cloud",
+            "es": "Adaptador para Aquarea Service Cloud",
+            "pl": "Adapter do chmury Aquarea Service Cloud",
+            "zh-cn": "松下舒适云适配器"
+        },
+        "authors": ["uwe <uweschaar@t-online.de>"],
+        "keywords": ["heat pump"],
+        "license": "MIT",
+        "platform": "Javascript/Node.js",
+        "connectionType": "cloud",
+        "dataSource": "poll",
+        "main": "build/main.js",
+        "icon": "panasonic-aquarea-service-cloud.png",
+        "enabled": true,
+        "extIcon": "https://raw.githubusercontent.com/UwesSmartHome/ioBroker.panasonic-aquarea-service-cloud/master/admin/panasonic-aquarea-service-cloud.png",
+        "readme": "https://github.com/UwesSmartHome/ioBroker.panasonic-aquarea-service-cloud/blob/master/README.md",
+        "loglevel": "info",
+        "mode": "daemon",
+        "type": "heat pump control",
+        "compact": true,
+        "materialize": true,
+        "dependencies": [
+            {
+                "js-controller": ">=1.4.2"
+            }
+        ]
+    },
+    "native": {
+        "username": "",
+        "password": ""
+    },
+    "protectedNative": ["password"],
+    "objects": [],
+    "instanceObjects": []
+}
